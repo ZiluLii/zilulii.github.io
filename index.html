@@ -66,103 +66,101 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>			
-	
+	  
+		<tr onmouseout="mcgpnf_stop()" onmouseover="mcgpnf_start()">
+		  <td style="padding:20px;width:25%;vertical-align:middle">
+		    <div class="one">
+		      <div class="two" id='mcgpnf_image'>
+			<img src='images/mcgpnf.jpg' width="320"></div>
+		      <img src='images/mcgpnf.jpg' width="320">
+		    </div>
+		    <script type="text/javascript">
+		      function mcgpnf_start() {
+			document.getElementById('mcgpnf_image').style.opacity = "1";
+		      }
+	  
+		      function mcgpnf_stop() {
+			document.getElementById('mcgpnf_image').style.opacity = "0";
+		      }
+		      mcgpnf_stop()
+		    </script>
+		  </td>
+		  <td style="padding:20px;width:75%;vertical-align:middle; text-align:center;">
+		    <a href="https://zilulii.github.io/">
+		      <span class="papertitle">Neural Cache for Monte Carlo Partial Differential Equation Solver </span>
+		    </a>
+		    <br>
+		    <strong>Zilu Li*</strong>, 
+		    <a href="https://www.guandaoyang.com/">Guandao Yang*</a><br>,
+		    <a href="https://www.cs.cornell.edu/~xideng/">Xi Deng</a>,
+		    <a href="https://www.cs.cornell.edu/~cdesa/">Christopher De Sa</a>,
+		    <a href="https://www.cs.cornell.edu/~bharathh/">Bharath Hariharan</a>,
+		    <a href="https://www.cs.cornell.edu/~srm/">Steve Marschner</a>,
+		    <br>
+		    <em>SIGGRAPH Asia</em>, 2023
+		    <br>
+	  <!--           <a href="https://yifanjiang19.github.io/alignerf">project page</a>
+		    / -->
+	  <!--           <a href="https://arxiv.org/pdf/2211.03989">arXiv</a>
+		    <p></p> -->
+		    <p>
+		    Using neural field caches to reduce variance in Monte Carlo PDE solvers. 
+		    </p>
+		  </td>
+		</tr>
+	  
+		      <tr onmouseout="bt_stop()" onmouseover="bt_start()">
+			  <td style="padding:20px;width:25%;vertical-align:middle">
+			    <div class="one">
+			      <div class="two" id='bt_image'>
+				<img src='images/bt2.png' width="320"></div>
+			      <img src='images/bt2.png' width="320">
+			    </div>
+			    <script type="text/javascript">
+			      function bt_start() {
+				document.getElementById('bt_image').style.opacity = "1";
+			      }
+		  
+			      function bt_stop() {
+				document.getElementById('bt_image').style.opacity = "0";
+			      }
+			      bt_stop()
+			    </script>
+			  </td>
+			  <td style="padding:20px;width:75%;vertical-align:middle; text-align:center;">
+			    <a href="https://yifeizhou02.github.io/publication/BT2">
+			      <span class="papertitle">BT^2: Backward-compatible Training with Basis Transformation </span>
+			    </a>
+			    <br>
+			    <a href="https://yifeizhou02.github.io/">Yifei Zhou*</a>,
+			    <strong>Zilu Li*</strong>, 
+			    <a href="http://www.cs.umd.edu/~abhinav/">Abhinav Shrivastava</a>,
+			    <a href="https://hszhao.github.io/">Hengshuang Zhao</a>,
+			    <a href="https://groups.csail.mit.edu/vision/torralbalab/">Antonio Torralba</a>,
+			    <a href="https://www.linkedin.com/in/taipeng-tian-233b44a/">Taipeng Tian</a>,
+			    <a href="https://ai.ucf.edu/person/ser-nam-lim/">Ser-Nam Lim</a>
+			    <br>
+			    <em>ICCV</em>, 2023
+			    <br>
+			    <a href="https://arxiv.org/pdf/2211.03989">Paper</a>
+			    <p>
+			    Introducing a Basis Transformation Method to avoid backfilling in learning new representation for retrieval system.
+			    </p>
+			  </td>
+			</tr>
 
-  
-        <tr onmouseout="mcgpnf_stop()" onmouseover="mcgpnf_start()">
-          <td style="padding:20px;width:25%;vertical-align:middle">
-            <div class="one">
-              <div class="two" id='mcgpnf_image'>
-                <img src='images/mcgpnf.jpg' width="320"></div>
-              <img src='images/mcgpnf.jpg' width="320">
-            </div>
-            <script type="text/javascript">
-              function mcgpnf_start() {
-                document.getElementById('mcgpnf_image').style.opacity = "1";
-              }
-  
-              function mcgpnf_stop() {
-                document.getElementById('mcgpnf_image').style.opacity = "0";
-              }
-              mcgpnf_stop()
-            </script>
-          </td>
-          <td style="padding:20px;width:75%;vertical-align:middle; text-align:center;">
-            <a href="https://zilulii.github.io/">
-              <span class="papertitle">Neural Cache for Monte Carlo Partial Differential Equation Solver </span>
-            </a>
-            <br>
-            <strong>Zilu Li*</strong>, 
-            <a href="https://www.guandaoyang.com/">Guandao Yang*</a><br>,
-            <a href="https://www.cs.cornell.edu/~xideng/">Xi Deng</a>,
-            <a href="https://www.cs.cornell.edu/~cdesa/">Christopher De Sa</a>,
-            <a href="https://www.cs.cornell.edu/~bharathh/">Bharath Hariharan</a>,
-            <a href="https://www.cs.cornell.edu/~srm/">Steve Marschner</a>,
-            <br>
-            <em>SIGGRAPH Asia</em>, 2023
-            <br>
-  <!--           <a href="https://yifanjiang19.github.io/alignerf">project page</a>
-            / -->
-  <!--           <a href="https://arxiv.org/pdf/2211.03989">arXiv</a>
-            <p></p> -->
-            <p>
-            Using neural field caches to reduce variance in Monte Carlo PDE solvers. 
-            </p>
-          </td>
-        </tr>
-  
-      <tr onmouseout="bt_stop()" onmouseover="bt_start()">
-          <td style="padding:20px;width:25%;vertical-align:middle">
-            <div class="one">
-              <div class="two" id='bt_image'>
-                <img src='images/bt2.png' width="320"></div>
-              <img src='images/bt2.png' width="320">
-            </div>
-            <script type="text/javascript">
-              function bt_start() {
-                document.getElementById('bt_image').style.opacity = "1";
-              }
-  
-              function bt_stop() {
-                document.getElementById('bt_image').style.opacity = "0";
-              }
-              bt_stop()
-            </script>
-          </td>
-          <td style="padding:20px;width:75%;vertical-align:middle; text-align:center;">
-            <a href="https://yifeizhou02.github.io/publication/BT2">
-              <span class="papertitle">BT^2: Backward-compatible Training with Basis Transformation </span>
-            </a>
-            <br>
-            <a href="https://yifeizhou02.github.io/">Yifei Zhou*</a>,
-            <strong>Zilu Li*</strong>, 
-            <a href="http://www.cs.umd.edu/~abhinav/">Abhinav Shrivastava</a>,
-            <a href="https://hszhao.github.io/">Hengshuang Zhao</a>,
-            <a href="https://groups.csail.mit.edu/vision/torralbalab/">Antonio Torralba</a>,
-            <a href="https://www.linkedin.com/in/taipeng-tian-233b44a/">Taipeng Tian</a>,
-            <a href="https://ai.ucf.edu/person/ser-nam-lim/">Ser-Nam Lim</a>
-            <br>
-            <em>ICCV</em>, 2023
-            <br>
-            <a href="https://arxiv.org/pdf/2211.03989">Paper</a>
-            <p>
-            Introducing a Basis Transformation Method to avoid backfilling in learning new representation for retrieval system.
-            </p>
-          </td>
-        </tr>
-
-        <!-- FOOTER -->
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:center;font-size:small;">
-              	Design and source code from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron's website</a>.
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
+	        <!-- FOOTER -->
+	        </tbody></table>
+	        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+	          <tr>
+	            <td style="padding:0px">
+	              <br>
+	              <p style="text-align:center;font-size:small;">
+	              	Template from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron's website</a>.
+	              </p>
+	            </td>
+	          </tr>
+	        </tbody></table>
 
 
       </td>
