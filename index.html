@@ -61,13 +61,56 @@
             <tr>
 		<td style="padding:20px;width:100%;vertical-align:middle">
                 	<h2>Research</h2>
-              <p>
+              <!-- <p>
               My research interest lies in the intersection of Computer Vision, Computer Graphics, and Machine Learning.
-              </p>
+              </p> -->
             </td>
           </tr>
         </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>			
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>	
+			
+			
+		<!-- 		autoint -->
+		<tr onmouseout="autoint_stop()" onmouseover="autoint_start()">
+			<td style="padding:20px;width:25%;vertical-align:middle">
+			  <div class="one">
+				<div class="two" id='autoint_image'>
+			  <img src='images/autoint.png' width="160"></div>
+				<img src='images/autoint.png' width="160">
+			  </div>
+			  <script type="text/javascript">
+				function autoint_start() {
+			  document.getElementById('autoint_image').style.opacity = "1";
+				}
+		
+				function mcgpnf_stop() {
+			  document.getElementById('autoint_image').style.opacity = "0";
+				}
+				autoint_stop()
+			  </script>
+			</td>
+			<td style="padding:20px;width:75%;vertical-align:middle; text-align:center;">
+			  <a href="https://zilulii.github.io/">
+				<span class="papertitle">Neural Control Variates with Automatic Integration </span>
+			  </a>
+			  <br>
+			  <strong>Zilu Li*</strong>, 
+			  <a href="https://www.guandaoyang.com/">Guandao Yang*</a>,
+			  <a href="https://qingqing-zhao.github.io/">Qingqing Zhao/a>,
+			  <a href="https://www.cs.cornell.edu/~xideng/">Xi Deng</a>,
+			  <a href="https://geometry.stanford.edu/member/guibas/">Leonidas Guibas</a>,
+			  <a href="https://www.cs.cornell.edu/~bharathh/">Bharath Hariharan</a>,
+			  <a href="https://stanford.edu/~gordonwz/">Gordon Wetzstein</a>
+			  <br>
+			  <em>SIGGRAPH</em>, 2024
+			  <br>
+				<!-- [<a href="https://zilulii.github.io/cache-website/">Page</a>] -->
+			  <p>We present a method that uses arbitrary neural network architectures as control variates with automatic differentiation to improve Monte Carlo methods. Our approach creates unbiased, low-variance, and numerically stable Monte Carlo estimators for various problem setups. We demonstrate our method's advantages in solving Laplace and Poisson equations using Walk-on-Sphere.
+			</p>
+  
+			</td>
+		  </tr>
+		
 <!-- 		MCGPNF -->
 		<tr onmouseout="mcgpnf_stop()" onmouseover="mcgpnf_start()">
 		  <td style="padding:20px;width:25%;vertical-align:middle">
