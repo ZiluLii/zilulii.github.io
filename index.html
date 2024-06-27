@@ -9,6 +9,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<style>
+		.clustrmaps-wrapper {
+		  width: 100px; /* Adjust this value to make it smaller or larger */
+		  height: 100px; /* Adjust this value to make it smaller or larger */
+		  overflow: hidden;
+		}
+		.clustrmaps-wrapper iframe {
+		  transform: scale(0.5); /* Adjust this value to scale the iframe */
+		  transform-origin: 0 0;
+		}
+	  </style>
     
   </head>
 
@@ -172,8 +183,9 @@
 	              <p style="text-align:center;font-size:small;">
 	              	Website Template: <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron's website</a>.
 	              </p>
-		<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=cvLsC6XGfsdLvVLXK7gYpvgG50Zxf3wviz1o0t9fUN0"></script>
-
+		<div class="clustrmaps-wrapper">
+			<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=cvLsC6XGfsdLvVLXK7gYpvgG50Zxf3wviz1o0t9fUN0"></script>
+		</div>
 	            </td>
 	          </tr>
 	        </tbody></table>
